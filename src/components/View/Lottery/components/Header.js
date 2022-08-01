@@ -30,9 +30,9 @@ const HeaderLogo = styled(Flex)`
 const HeaderSection = styled(Box)`
   background-color: ${({ theme }) => theme.colors.background};
   height: 64px;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
-  z-index: ${({ theme }) => theme.zIndices.header};
+  /* z-index: ${({ theme }) => theme.zIndices.header}; */
 `
 
 const Header = () => {

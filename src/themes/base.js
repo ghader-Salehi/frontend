@@ -34,12 +34,12 @@ const spacing = [0, 4, 8, 16, 24, 32, 48, 64]
 
 const zIndices = {
   header: 100,
-  menu: 200,
+  menu: 1000000,
   modal: 800,
   toast: 1000,
 }
 
-export default {
+const Exports = {
   breakpoints,
   mediaQueries,
   radii,
@@ -48,3 +48,5 @@ export default {
   spacing,
   zIndices,
 }
+
+export default Exports
